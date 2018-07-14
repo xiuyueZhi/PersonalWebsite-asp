@@ -1,0 +1,119 @@
+.msg{
+	font-size: 17px;
+	font-family: "黑体";
+	color: #9d9b9b;
+	margin-top:30px;
+	margin-left: 50px;
+}
+textarea{
+	border:none;
+	resize: none;
+	width: 565px;
+	height:140px;
+	border:1px solid #c2c4c5;
+	border-radius: 5px;
+	margin-left: 50px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: "黑体";
+	color: #545454;
+}
+#note-title{
+	text-decoration: none;
+}
+#content{
+	font-size: 16px;
+	font-family: "黑体";
+	color: #9d9b9b;
+}
+.choice1,.choice2,.choice3{
+	display: none;
+}
+.msg-text{
+	border:1px solid #4EF5A9;
+	border-radius: 5px;
+	background-color: #8FE1FA;
+	width: 60px;
+	height: 30px;
+	display: block;
+	margin-left: 545px;
+	margin-top: -30px;
+	opacity: 0.7;
+}
+.friend-text{
+	border:1px solid #4EF5A9 ;
+	border-radius: 5px;
+	background-color: #8FE1FA;
+	width: 80px;
+	height: 30px;
+	opacity: 0.7;
+	margin-top: 10px;
+	margin-left: 70px;
+}
+.friend-text:hover,.msg-text:hover{
+	border-color: #10ccc1;
+	background-color: #8FE1FA;
+	opacity: 1;
+}
+.msg-text:focus,button:focus {
+	outline: none;
+	border-color: #10ccc1;
+	background-color: #8FE1FA;
+	opacity: 1;
+}
+.replay1,.replay2,.replay3,.del,.dell{
+	text-decoration: none;
+	color:#5E5E5E;
+}
+.replay1:hover,.replay2:hover,.replay3:hover,.del:hover,.dell:hover{
+	color: #0D0D0D;
+}
+.num{
+	margin-top: 60px;
+	margin-left: 258px;
+}
+ul{
+	display: block;
+	margin-top: 40px;
+	margin-left: -225px;
+}
+li p{
+	font-family: "黑体";
+}
+.replayer{
+	color:#5E5E5E;
+}
+.replayer:hover{
+	color: #0D0D0D;
+}
+.firstPage,.prePage,.nextPage,.endPage{
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "黑体";
+	color: #939393;
+}
+.first-Page,.pre-Page,.next-Page{
+	font-size: 13px;
+	text-decoration: none;
+	font-family: "黑体";
+	color: #939393;
+}
+.firstPage:hover,.prePage:hover,.nextPage:hover,.endPage:hover{
+	color: #545454;
+}
+.pn{
+	margin-left: 380px;
+	margin-top: -23px;
+	color: #939393;
+}
+.huifu1,.huifu2,.huifu3{
+	display: none;
+}
+.search{
+	margin-top: 20px;
+	margin-left: 65px;
+	margin-bottom: -35px;
+	font-size: 15px;
+	font-family: "黑体";
+	color: #939393;
+}

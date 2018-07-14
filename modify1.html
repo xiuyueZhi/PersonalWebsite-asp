@@ -1,0 +1,33 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>修改信息</title>
+		<style type="text/css">
+			input{
+				height: 30px;
+			}
+			.cb{
+				margin-top: 20px;
+			}
+		</style>
+		<script src="js/jquery-1.9.0.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.cb').click(function() {
+					alert("确定要修改好友信息吗？");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="infor-box">
+			<p class="name">昵称:</p><input type="text" name="name" value="简" style="cursor: not-allowed" disabled>
+			<p class="m-name">备注：</p><input type="text" name="m-name" value="简">
+			<p class="sex">性别:</p><input type="text" name="sex" value="女">
+			<p class="nature">个性:</p><input type="text" name="nature" value="自信 优雅">
+			<p class="address">IP:</p><input type="tsxt" name="ip" value="192.168.1.0" style="cursor: not-allowed" disabled>
+		</div>
+		<button class="cb">确定</button>
+	</body>
+	</html>

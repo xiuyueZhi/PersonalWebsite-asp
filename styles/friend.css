@@ -1,0 +1,78 @@
+.big-box{
+	height: 800px;
+}
+ul{
+	list-style: none;
+}
+li{
+	line-height: 28px;
+}
+.friend-list{
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.friend-list img{
+	width:70px;
+	height: 70px;
+	border-radius: 70px;
+}
+.name1,.name2,.name3{
+	margin-top: -75px;
+	margin-left: 80px;
+	font-family: "黑体";
+	font-size: 20px;
+}
+.motto1,.motto2,.motto3{
+	width: 400px;
+	margin-top: -20px;
+	margin-left: 80px;
+	font-size: 13px;
+	color: #b89c7e;
+	font-family: "Candara Italic";
+}
+.as1,.as2,.as3{
+	display: none;
+}
+.friend1-box,.friend2-box,.friend3-box{
+	width: 145px;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #BABEBE;
+	opacity: 0.4;
+	margin-top: -340px;
+	margin-left: 90px;
+	position: relative;
+	z-index: 10;
+}
+.friend2-box{
+	margin-top: -238px;
+}
+.friend3-box{
+	margin-top: -138px;
+}
+.friend11-box p,.friend22-box p,.friend33-box p{
+	font-size: 15px;
+	font-family: "黑体";
+	color: #8e5e0c;
+	position: relative;
+	z-index: 100;
+}
+.friend11-box p:hover,.friend22-box p:hover,.friend33-box p:hover{
+	color: #403F10;
+}
+.information1,.information2,.information3{
+	margin-top: -30px;
+	margin-left: 95px;
+}
+.modify1,.modify2,.modify3{
+	margin-top: -32px;
+	margin-left: 160px;
+}
+/*.delete1,.delete2,.delete3{
+	margin-top: -32px;
+	margin-left: 195px;
+	}*/
+	.delete{
+		margin-top: -32px;
+		margin-left: 195px;
+	}

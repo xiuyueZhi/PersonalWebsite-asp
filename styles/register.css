@@ -1,0 +1,86 @@
+.big-box{
+	width: 700px;
+	height: 490px;
+	border: 2px solid #DCDCDC;
+	background-color: #F7F7F7;
+	margin:100px auto;
+}
+.middle-box{
+	width: 410px;
+	height: 343px;
+	border: 2px solid #EBEBEB;
+	border-radius: 5px;
+	background-color: #FDFBFB;
+	margin: 50px auto;
+}
+.name,.password,.email{
+	font-size: 18px;
+	color:#8f8f8f;
+	margin-left: 60px;
+	margin-top: 18px;
+}
+.name-box ,.email-box,.password-box{
+	border:1px solid #bcbcbc;
+	border-radius: 7px;
+	width:300px;
+	height:40px;
+	margin-left: 55px;
+	margin-top: -6px;
+	font-size: 18px;
+	color:#606060;
+}
+input:focus {
+	outline: none;
+	border-right:1px solid #8b8989;
+	border-bottom: 1px solid #8b8989;
+}
+.small-box{
+	width: 410px;
+	height: 96px;
+	border:1px solid #e1e0e0;
+	margin-top: 20px;
+	margin-left: -2px;
+}
+.ssmall-box{
+	width: 410px;
+	height: 92px;
+	border:1px solid #e1e0e0;
+}
+.sssmall-box{
+	width: 410px;
+	height: 88px;
+	border:1px solid #e1e0e0;
+	background-color: #ebeaea;
+}
+.register{
+	width: 55px;
+	height: 28px;
+	background-color: #4771cd;
+	border:3px solid #4770cd;
+	border-radius: 6px;
+	color: #FFFFFF;
+	margin:32px 170px;
+}
+button:focus {
+	outline: none;
+	background-color: #55A1DB;
+	border:3px solid #55A1DB;
+}
+.footer{
+	width: 300px;
+	margin:-80px auto;
+	margin-bottom: 30px;
+}
+.footer p{
+	color: #8f8f8f;
+	font-size: 12px;
+}
+.footer a{
+	font-size: 14px;
+	width: 200px;
+	font-family: "黑体";
+	color: #8f8f8f;
+}
+.footer a:hover{
+	color: #907008;
+}

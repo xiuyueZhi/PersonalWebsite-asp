@@ -1,0 +1,118 @@
+.page{
+	margin-top: 18px;
+	margin-left: 120px;
+}
+.friend{
+	margin-left: 35px;
+}
+.active{
+	margin-left: 175px;
+}
+.message{
+	margin-left: 35px;
+}
+.photo{
+	width: 90px;
+	height: 90px;
+	border-radius:90px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.as{
+	display: none;
+	width: 145px;
+	height: 240px;
+}
+.non-box{
+	width: 145px;
+	height: 160px;
+	border-radius: 5px;
+	background-color: #E4E4E4;
+	opacity: 0.3;
+	margin-top: -240px;
+	margin-left: 360px;
+	position: relative;
+	z-index: 10000;
+}
+.none-box{
+	margin-top: -150px;
+	margin-left: 370px;
+	position: relative;
+	z-index: 10000;
+}
+.none-box p{
+	width: 200px;
+	color: #060606;
+	font-size: 18px;
+	font-family: "黑体";
+	display: block;
+	margin-top: -15px;
+}
+.set{
+	color: #060606;
+	font-size: 18px;
+	font-family: "黑体";
+	width: 50px;
+	display: block;
+	margin-top: 20px;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.exit{
+	color: #060606;
+	font-size: 18px;
+	font-family: "黑体";
+	width: 50px;
+	display: block;
+	margin-top: -5px;
+	margin-left: 80px;
+	text-decoration: none;
+}
+.exit:hover,.set:hover{
+	color: #093D6C;
+}
+.line{
+	width: 573px;
+	height: 1px;
+	background-color: #dedddd;
+	position:absolute;
+	display: block;
+	margin-left: 50px;
+	margin-top: 15px;
+	box-shadow: 0 0 5px rgba(96, 96, 96, 0.1);
+}
+ul{
+	display: block;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+li p{
+	font-family: "黑体";
+}
+#first-active{
+	text-decoration: none;
+	font-family: "黑体";
+	font-size: 18px;
+}
+.list1,.list2,.list3{
+	margin-top: -30px;
+	display: none;
+}
+.footer{
+	width: 300px;
+	margin:-35px 600px;
+	margin-bottom: 30px;
+}
+.footer p{
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.footer a{
+	font-size: 14px;
+	width: 200px;
+	font-family: "黑体";
+	color: #FFFFFF;
+}
+.footer a:hover{
+	color: #907008;
+}

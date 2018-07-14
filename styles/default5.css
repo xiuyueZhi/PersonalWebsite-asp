@@ -1,0 +1,34 @@
+body{
+	background-color: #e0c661;
+}
+.image{
+	background: url(image/04.jpg) no-repeat;
+	background-size:673px 192px;
+}
+.cicle{
+	background-color: #e0c661;
+}
+.act{
+	color: #e0c661;
+	border-bottom: 2px solid #c3c3c3;
+}
+li a{
+	color: #a3a2a2;
+}
+li p{
+	color: #a3a2a2;
+}
+.act2{
+	color: #e0c661;
+}
+li{
+	color: #e0c661;
+	margin-top: 20px;
+}
+.name1,.name2,.name3{
+	color: #e0c661;
+}
+.checkboxOne ,.checkboxTwo ,.checkboxThree{
+	background:#e0c661;
+}
+

@@ -1,0 +1,138 @@
+.error{
+	border:1px solid #bcbcbc;
+	width:200px;
+	height:40px;
+	margin-top: 180px;
+	margin-left: 550px;
+	margin-bottom: -230px;
+	padding-top: 10px;
+	padding-left:10px;
+	font-size: 15px;
+	color:#606060;
+	background-color: #FFFFFF;
+	position: relative;
+	z-index:150;
+}
+#errorClose{
+	display: block;
+	margin-top: -33px;
+	margin-left: 186px;
+}
+.big-box{
+	width: 700px;
+	height: 490px;
+	border: 2px solid #DCDCDC;
+	background-color: #F7F7F7;
+	margin:100px auto;
+}
+.middle-box{
+	width: 410px;
+	height: 343px;
+	border: 2px solid #EBEBEB;
+	border-radius: 5px;
+	background-color: #FDFBFB;
+	margin: 50px auto;
+}
+.name,.password{
+	font-size: 18px;
+	color:#8f8f8f;
+	margin-left: 60px;
+	margin-top: 18px;
+}
+.name-box ,.password-box{
+	border:1px solid #bcbcbc;
+	border-radius: 7px;
+	width:300px;
+	height:40px;
+	margin-left: 55px;
+	margin-top: -6px;
+	font-size: 18px;
+	color:#606060;
+}
+input:focus {
+	outline: none;
+	border-right:1px solid #8b8989;
+	border-bottom: 1px solid #8b8989;
+}
+.rember{
+	color: #878686;
+	font-size: 13px;
+	display: block;
+	margin-top: 12px;
+	margin-left:55px;
+}
+.min-box{
+	position: relative;
+	top: 2px;
+}
+.forget{
+	font-size: 13px;
+	color:#8f8f8f;
+	margin-left: 290px;
+	display: block;
+	margin-top: -18px;
+	text-decoration: none;
+}
+.small-box{
+	width: 410px;
+	height: 96px;
+	border:1px solid #e1e0e0;
+	margin-top: 20px;
+	margin-left: -2px;
+}
+.ssmall-box{
+	width: 410px;
+	height: 92px;
+	border:1px solid #e1e0e0;
+}
+.sssmall-box{
+	width: 410px;
+	height: 88px;
+	border:1px solid #e1e0e0;
+	background-color: #ebeaea;
+}
+.login{
+	width: 55px;
+	height: 28px;
+	background-color: #4771cd;
+	border:3px solid #4770cd;
+	border-radius: 6px;
+	color: #FFFFFF;
+	margin:32px 123px;
+}
+button:focus {
+	outline: none;
+	background-color: #55A1DB;
+	border:3px solid #55A1DB;
+}
+.register{
+	color: #878686;
+	font-size: 13px;
+	display: block;
+	margin-top: -55px;
+	margin-left:245px;
+}
+a:hover{
+	color: #E9965D;
+}
+label:hover{
+	color: #E9965D;
+}
+.footer{
+	width: 300px;
+	margin:-80px auto;
+	margin-bottom: 30px;
+}
+.footer p{
+	color: #8f8f8f;
+	font-size: 12px;
+}
+.footer a{
+	font-size: 14px;
+	width: 200px;
+	font-family: "黑体";
+	color: #8f8f8f;
+}
+.footer a:hover{
+	color: #907008;
+}

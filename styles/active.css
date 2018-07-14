@@ -1,0 +1,145 @@
+ul{
+	display: block;
+	margin-top: 65px;
+	margin-left: 100px;
+}
+li p{
+	width: 600px;
+	display: block;
+	margin-top: -15px;
+}
+.fa{
+	margin-top: -30px;
+}
+.choice li{
+	list-style: none;
+}
+input[type=checkbox]{
+	visibility:hidden;
+}
+.checkboxOne{
+	width:8px;
+	height:8px;
+	background:#10ccc1;
+	margin-left: -255px;
+	margin-top: 25px;
+	border-radius:100%;
+	position:relative;
+	/*-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow:0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow:0px 1px 3px rgba(0,0,0,0.5);*/
+}
+.checkboxOne label{
+	display:block;
+	width:6px;
+	height:6px;
+	border-radius:100px;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	transition:all .5s ease;
+	cursor:pointer;
+	position:absolute;
+	top:1px;
+	left:1px;
+	z-index:1;
+	background:#fff;
+	/*-webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);*/
+}
+.checkboxOne input[type=checkbox]:checked+label{
+	background:#26ca28;
+}
+.option{
+	margin-left: -230px;
+}
+.confirm{
+	margin-left: 400px;
+	margin-top: 40px;
+}
+.confirm-button{
+	border:1px solid #4EF5A9;
+	border-radius: 5px;
+	background-color: #8FE1FA;
+	width: 60px;
+	height: 40px;
+	margin-right:15px;
+	opacity: 0.7;
+}
+#xz{
+	margin-left:-80px;
+	display: block;
+	margin-bottom: -40px;
+}
+.result-button{
+	border:1px solid #4EF5A9 ;
+	border-radius: 5px;
+	background-color: #8FE1FA;
+	width: 80px;
+	height: 40px;
+	opacity: 0.7;
+}
+.confirm-button:hover,.result-button:hover,.send-button:hover{
+	border-color: #10ccc1;
+	background-color: #8FE1FA;
+	opacity: 1;
+}
+.vote:focus,button:focus {
+	outline: none;
+	border-color: #10ccc1;
+	background-color: #8FE1FA;
+	opacity: 1;
+}
+.confirm p,.send-button p{
+	margin:10px auto;
+}
+.fabiao{
+	margin-top: 50px;
+}
+textarea{
+	border:none;
+	resize: none;
+	width: 565px;
+	height:160px;
+	border:1px solid #c2c4c5;
+	border-radius: 5px;
+	margin-left: 50px;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: "黑体";
+	color: #545454;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.send-button{
+	border:1px solid #4EF5A9;
+	border-radius: 5px;
+	background-color: #8FE1FA;
+	width: 60px;
+	height: 40px;
+	margin-right:30px;
+	opacity: 0.7;
+	margin-left: 550px;
+}
+.firstPage,.prePage,.nextPage,.endPage{
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "黑体";
+	color: #939393;
+}
+.firstPage:hover,.prePage:hover,.nextPage:hover,.endPage:hover{
+	color: #545454;
+}
+.pn{
+	margin-left: 380px;
+	margin-top: -23px;
+	color: #939393;
+}
+.votebutton{
+	float: right;
+}
+.hid{
+	display: none;
+}
